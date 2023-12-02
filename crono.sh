@@ -67,7 +67,7 @@ func_sleep () {
      coliseum_start
      reset
      clear
-     i=10
+     i=1
 #     printf "\n No battles now, waiting 1m\n"
      func_cat
 #     sleep 55s
@@ -79,7 +79,7 @@ func_sleep () {
   ([25][89])
    reset
    clear
-   i=10
+   i=1
 #   printf "\n No battles now, waiting 15s\n"
    func_cat
 #   sleep 10s
@@ -89,7 +89,7 @@ func_sleep () {
 #   check_missions
    reset
    clear
-   i=2
+   i=1
 #   printf "\ESPERANDO\n"
    func_cat
 #   sleep 25s
