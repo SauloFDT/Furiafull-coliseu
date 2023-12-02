@@ -89,14 +89,14 @@ coliseum_fight () {
 #      time_exit 17
      fi #...passou 300s
     else #...cessa espera || finaliza...
-     BREAK_LOOP=1
+     BREAK_LOOP=0
      printf "${BLACK_YELLOW}Battle's over.${COLOR_RESET}\n" ; sleep 2s
     fi #...finalizou a batalha
    fi #...cessou procura por esquiva
   } #...fecha a função
   cl_access
   local OLDHP=$USH #18.OLDHP
-  BREAK_LOOP=""
+  BREAK_LOOP=0
   local first_time=$(date +%s) #7.last_time
   until [ -n "$BREAK_LOOP" ] ; do
    #/heal
