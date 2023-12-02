@@ -36,7 +36,7 @@ apk add curl ; apk add w3m ; apk add procps ; apk add coreutils ; apk add --no-c
 
 >Android(UserLAnd) and Iphone(iSH):
 ```bash
-curl 
+curl  -L -O
 ```
 
 >4 - Dê permissão de execução para o instalador
