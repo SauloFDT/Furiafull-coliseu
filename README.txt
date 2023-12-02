@@ -1,5 +1,5 @@
 # TWM(Titans War Macro)
-Scripts macros para titanswar.net em todos os servidores.
+Scripts macros para titanswar.net em todos os servidores. (UELITON DONO DO MACRO APENAS MODIFIQUEI)
 
 
 **Necessário level 16+ e 50 pontos de treinamento para entrar em algumas batalhas**
